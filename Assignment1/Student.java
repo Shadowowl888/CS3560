@@ -1,7 +1,7 @@
 package Assignment1;
 
 /**
- * Student
+ * Student class to manage each student's ID and answers
  */
 public class Student {
     private String studentID;

@@ -1,7 +1,10 @@
 package Assignment1;
 
+import java.util.List;
+import java.util.ArrayList;
+
 /**
- * Question
+ * Question class to manage the question type and list of answers given for the question
  */
 public class Question {
     private String questionType;

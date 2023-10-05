@@ -1,9 +1,10 @@
 package Assignment1;
 
 import java.util.Map;
+import java.util.HashMap;
 
 /**
- * VotingService
+ * VotingService to manage the answering process for the question and keep track of counts for each answer choice.
  */
 public class VotingService {
     private Question question;
@@ -23,7 +24,7 @@ public class VotingService {
         answerCounts.put(student.getAnswer(), answerCounts.getOrDefault(student.getAnswer(), 0) + 1);
     }
 
-    private void displayResults() {
+    public void displayResults() {
         for (Map.Entry<String, Integer> entry : answerCounts.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
