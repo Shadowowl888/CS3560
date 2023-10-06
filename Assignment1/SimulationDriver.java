@@ -14,6 +14,7 @@ public class SimulationDriver {
         Question question = new Question("Multiple Choice");
         question.setCandidateAnswers(Arrays.asList("A", "B", "C", "D"));
 
+        // Display poll question and answer choices
         System.out.println("What is the answer to this question? (Hint: Pick B)");
         System.out.println("A. CS3560");
         System.out.println("B. Bruh");
@@ -29,17 +30,19 @@ public class SimulationDriver {
             votingService.submitAnswer(student);
         }
 
-        // Display the results
+        // Display the results distribution for the different answer choices
         System.out.println("\nResults:");
         votingService.displayResults();
 
+        // Display each student's answer and whether they were correct
         System.out.println("\nStudent Answers:");
         System.out.println("UID\t\t\tAnswers\t\tCorrect?");
         for (Student student : students) {
-            System.out.println(student.getStudentID() + "\t\t" + student.getAnswer() + "\t\t" + "Yes");
+            System.out.println(student.getStudentID() + "\t\t" + student.getAnswer() + "\t\t" + student.getAnswer().equals("B"));
         }
     }
 
+    // Generates a random number of students and chooses a random answer for the simulation
     private static List<Student> generateRandomStudents() {
         List<Student> students = new ArrayList<>();
         Random random = new Random();
@@ -47,6 +50,7 @@ public class SimulationDriver {
         // Generate a random number of students (between 10 and 50)
         int numStudents = random.nextInt(41) + 10;
         
+        // Assign a random answer for each student to stimulate live poll
         for (int i = 1; i <= numStudents; i++) {
             String studentID = "Student" + i;
             String[] candidateAnswers = {"A", "B", "C", "D"};

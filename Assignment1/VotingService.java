@@ -9,8 +9,8 @@ import java.util.HashMap;
 public class VotingService {
     private Question question;
     private Map<String, Integer> answerCounts;
-    //private int answerCounts;
 
+    // Initialize hash map to keep track of answer choice count
     public VotingService(Question question) {
         this.question = question;
         this.answerCounts = new HashMap<>();
@@ -19,11 +19,13 @@ public class VotingService {
         }
     }
 
+    // Allows student to submit the answer in the simulation
     public void submitAnswer(Student student) {
         // Check if the student has already submitted an answer
         answerCounts.put(student.getAnswer(), answerCounts.getOrDefault(student.getAnswer(), 0) + 1);
     }
 
+    // Displays distribution results for the answer choices
     public void displayResults() {
         for (Map.Entry<String, Integer> entry : answerCounts.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
