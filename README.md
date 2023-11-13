@@ -34,6 +34,13 @@ You need to build a GUI for the functions above. The suggested UIs are shown bel
 10. You can post a new Tweet with the TextArea and Button. Once you click the Post button. It will add the message to all your followers’ news feed list, as well as your own news feed list.
 11. Whenever a new message is posted, all the followers’ news feed list view should be updated and refreshed automatically.
 
+![Figure 1. The UI for admin control panel](UIDesigns/Figure1.png)
+Figure 1. The UI for admin control panel
+![Figure 2. The UI for user view](UIDesigns/Figure2.png)
+Figure 2. The UI for user view
+![Figure 3. You can open as many user views as you want by selecting the user in the tree and clicking on the Open User View button](UIDesigns/Figure3.png)
+Figure 3. You can open as many user views as you want by selecting the user in the tree and clicking on the Open User View button
+
 The UI should be built using Java Swing. There are tons of references and tutorials about how to write Java Swing program. For instance, http://docs.oracle.com/javase/tutorial/uiswing/.
 
 You are encouraged to use as many design patterns as you can (even using the one we have not covered in the class). The required patterns are Singleton, Observer, Visitor, and Composite.
