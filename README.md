@@ -13,6 +13,7 @@ A project hub for all the CS3560 assignments.
   * **Assignment 1:** iVote Simulator
   * **Assignment 2:** Mini Twitter UI
   * **Assignment 3:** Mini Twitter UI Update
+  * **Team Presentation:** Mediator Pattern
 
 ### OOD Patterns:
 
