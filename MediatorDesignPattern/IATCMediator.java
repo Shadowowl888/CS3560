@@ -5,7 +5,7 @@ public interface IATCMediator {
  
     public void registerFlight(Flight flight);
  
-    public boolean isLandingOk();
+    public boolean isAvailable();
  
-    public void setLandingStatus(boolean status);
+    public void setAvailability(boolean status);
 }

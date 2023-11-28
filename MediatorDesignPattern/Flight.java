@@ -1,20 +1,27 @@
 package MediatorDesignPattern;
 
 public class Flight implements Command {
-    private IATCMediator atcMediator;
+    private IATCMediator trafficController;
+    private String name;
  
-    public Flight(IATCMediator atcMediator) {
-        this.atcMediator = atcMediator;
+    public Flight(IATCMediator trafficController, String name) {
+        this.trafficController = trafficController;
+        this.name = name;
     }
  
     public void land() {
-        if (atcMediator.isLandingOk()) 
-        {
-            System.out.println("Successfully Landed.");
-            atcMediator.setLandingStatus(true);
-        }
-        else
-            System.out.println("Waiting for landing.");
+        if (trafficController.isAvailable()) {
+            System.out.println("Flight " + name + " has landed");
+            trafficController.setAvailability(false);
+            // System.out.println("Successfully Landed.");
+        } else
+            System.out.println("Flight " + name + " is waiting for runway to clear");
+            // System.out.println("Waiting for landing.");
+    }
+
+    public void parked() {
+        System.out.println("Flight " + name + " has now parked and the runway is clear for landing");
+        trafficController.setAvailability(true);
     }
  
     public void getReady() {
