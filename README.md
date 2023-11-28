@@ -12,6 +12,7 @@ A project hub for all the CS3560 assignments.
 
   * **Assignment 1:** iVote Simulator
   * **Assignment 2:** Mini Twitter UI
+  * **Assignment 3:** Mini Twitter UI Update
 
 ### OOD Patterns:
 
@@ -19,3 +20,9 @@ A project hub for all the CS3560 assignments.
   * **Pattern 2:** Observer Pattern
   * **Pattern 3:** Composite Pattern
   * **Pattern 3:** Visitor Pattern
+  * **Pattern 4:** Decorator Pattern
+  * **Pattern 5:** Abstract Factory Pattern
+  * **Pattern 6:** Proxy Pattern
+  * **Pattern 7:** Command Pattern
+  * **Pattern 8:** Chain of Responsibility
+  * **Pattern 9:** Adapter and Facade
