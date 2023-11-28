@@ -1,4 +1,4 @@
-package CompositePattern;
+package DesignPatternNotes.CompositePattern;
 
 public abstract class AutoElement {
     private String model;

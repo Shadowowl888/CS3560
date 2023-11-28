@@ -1,4 +1,4 @@
-package CompositePattern;
+package DesignPatternNotes.CompositePattern;
 
 public class Engine {
     public void acceptVisitor(AutoElementVisitor ae) {

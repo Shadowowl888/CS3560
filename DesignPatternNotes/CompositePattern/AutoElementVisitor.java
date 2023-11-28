@@ -1,4 +1,4 @@
-package CompositePattern;
+package DesignPatternNotes.CompositePattern;
 
 public interface AutoElementVisitor {
     public void visitWheel(Wheel w);

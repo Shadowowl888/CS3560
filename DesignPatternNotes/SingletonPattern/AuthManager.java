@@ -1,4 +1,4 @@
-package SingletonPattern;
+package DesignPatternNotes.SingletonPattern;
 
 public class AuthManager {
     /**

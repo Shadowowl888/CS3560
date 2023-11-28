@@ -1,4 +1,4 @@
-package CompositePattern;
+package DesignPatternNotes.CompositePattern;
 
 public class AppDemo {
     public static void main(String[] args) {
