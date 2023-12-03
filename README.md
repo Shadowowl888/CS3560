@@ -13,16 +13,18 @@ A project hub for all the CS3560 assignments.
   * **Assignment 1:** iVote Simulator
   * **Assignment 2:** Mini Twitter UI
   * **Assignment 3:** Mini Twitter UI Update
+  * **Team Presentation:** Mediator Pattern
 
 ### OOD Patterns:
 
-  * **Pattern 1:** Singleton Pattern
-  * **Pattern 2:** Observer Pattern
-  * **Pattern 3:** Composite Pattern
-  * **Pattern 3:** Visitor Pattern
-  * **Pattern 4:** Decorator Pattern
-  * **Pattern 5:** Abstract Factory Pattern
-  * **Pattern 6:** Proxy Pattern
-  * **Pattern 7:** Command Pattern
-  * **Pattern 8:** Chain of Responsibility
-  * **Pattern 9:** Adapter and Facade
+  * **Design Pattern 1:** Singleton Pattern
+  * **Design Pattern 2:** Observer Pattern
+  * **Design Pattern 3:** Composite Pattern
+  * **Design Pattern 3:** Visitor Pattern
+  * **Design Pattern 4:** Decorator Pattern
+  * **Design Pattern 5:** Command Pattern
+  * **Design Pattern 6:** Abstract Factory Pattern
+  * **Design Pattern 7:** Proxy Pattern
+  * **Design Pattern 8:** Chain of Responsibility
+  * **Design Pattern 9:** Adapter Pattern
+  * **Design Pattern 10:** Facade Pattern
