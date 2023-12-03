@@ -34,13 +34,13 @@ You need to build a GUI for the functions above. The suggested UIs are shown bel
 10. You can post a new Tweet with the TextArea and Button. Once you click the Post button. It will add the message to all your followers’ news feed list, as well as your own news feed list.
 11. Whenever a new message is posted, all the followers’ news feed list view should be updated and refreshed automatically.
 
-<img src="UIDesigns/Figure1.png" alt="Figure 1. The UI for admin control panel" width="700" />
+<img src="Assignment2/UIDesigns/Figure1.png" alt="Figure 1. The UI for admin control panel" width="700" />
 Figure 1. The UI for admin control panel
 
-<img src="UIDesigns/Figure2.png" alt="Figure 2. The UI for user view" width="200" />
+<img src="Assignment2/UIDesigns/Figure2.png" alt="Figure 2. The UI for user view" width="200" />
 Figure 2. The UI for user view
 
-<img src="UIDesigns/Figure3.png" alt="Figure 3. You can open as many user views as you want by selecting the user in the tree and clicking on the Open User View button" width="1000" />
+<img src="Assignment2/UIDesigns/Figure3.png" alt="Figure 3. You can open as many user views as you want by selecting the user in the tree and clicking on the Open User View button" width="1000" />
 Figure 3. You can open as many user views as you want by selecting the user in the tree and clicking on the Open User View button
 
 The UI should be built using Java Swing. There are tons of references and tutorials about how to write Java Swing program. For instance, http://docs.oracle.com/javase/tutorial/uiswing/.
@@ -64,10 +64,19 @@ Please let me know if you need to meet to discuss any problems that you may have
 
   * **Assignment 1:** iVote Simulator
   * **Assignment 2:** Mini Twitter UI
+  * **Assignment 3:** Mini Twitter UI Update
+  * **Team Presentation:** Mediator Pattern
 
 ## OOD Patterns:
 
-  * **Pattern 1:** Singleton Pattern
-  * **Pattern 2:** Observer Pattern
-  * **Pattern 3:** Composite Pattern
-  * **Pattern 3:** Visitor Pattern
+  * **Design Pattern 1:** Singleton Pattern
+  * **Design Pattern 2:** Observer Pattern
+  * **Design Pattern 3:** Composite Pattern
+  * **Design Pattern 3:** Visitor Pattern
+  * **Design Pattern 4:** Decorator Pattern
+  * **Design Pattern 5:** Command Pattern
+  * **Design Pattern 6:** Abstract Factory Pattern
+  * **Design Pattern 7:** Proxy Pattern
+  * **Design Pattern 8:** Chain of Responsibility
+  * **Design Pattern 9:** Adapter Pattern
+  * **Design Pattern 10:** Facade Pattern
